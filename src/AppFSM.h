@@ -16,14 +16,9 @@ typedef struct
 class AppFSM : public IFSM
 {
 	List<StateObject> *m_stateList;
-
-	// AppFSM(const AppFSM&);
-	// AppFSM& operator=(const AppFSM&);
-
 	IState* m_pCurrState;
 	bool m_running;
 public: 
-	// TODO  add the class
 	AppFSM();
 	~AppFSM();
 	void ScheduleEvent(sEvent& evt);
