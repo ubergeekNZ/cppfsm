@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+rm -rf build
+mkdir -p ./build
+cp ../../tests/testdata/* build/
+
+(cd ./build && cmake ..)
+
+(cd ./build && make)

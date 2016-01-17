@@ -1,0 +1,7 @@
+### C++ ###
+
+# Ignore ctags
+*.tags*
+
+# folder
+build/
