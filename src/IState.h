@@ -4,7 +4,7 @@
 class IState
 {
 public:
-	virtual ~IState() {}
+    virtual ~IState() {}
     virtual void OnHandle(sEvent& evt) = 0;
     virtual void Update() = 0;
     virtual void OnEntry() = 0;

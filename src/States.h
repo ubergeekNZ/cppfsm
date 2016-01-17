@@ -3,8 +3,8 @@
 
 enum eState 
 {
-  STATE_NORMAL = 0,
-  STATE_MAX
+    STATE_NORMAL = 0,
+    STATE_MAX
 };
  
 #endif // STATES_H
